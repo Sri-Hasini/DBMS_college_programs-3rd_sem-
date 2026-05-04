@@ -61,4 +61,3 @@ SELECT c.CourseName, COUNT(e.StudentID) AS Total_Students
 FROM Courses c, Enrollments e
 WHERE c.CourseID = e.CourseID
 GROUP BY c.CourseName;
-
